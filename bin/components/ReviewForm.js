@@ -34,7 +34,6 @@ app.component('review-form', {
     },
     methods: {
         onSubmit() {
-            console.log(this.wouldRecommend)
             if (this.name === '' || this.rating === null || this.review === '') {
                 alert('Review is incomplete. Please fill out the entire form :)')
                 return
